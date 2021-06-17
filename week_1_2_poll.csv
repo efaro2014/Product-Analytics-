@@ -1,0 +1,76 @@
+Title,Questions Name,Questions Type,Answers
+Virtual Environment,,,
+,Virtual environments only allow to use the latest python version.,single,
+,,,TRUE
+,,,FALSE
+,What is the command to activate a pip-based virtual environment?,single,
+,,,"pip activate environment_name
+"
+,,,source environment_name/bin/activate
+,,,source activate environment_name
+,,,pip install -r requirements.txt
+,,,
+Git,,,
+,Which of the git functionalities allow to diverge from the main line of development?,single,
+,,,Branch
+,,,Squash
+,,,Commit
+,,,Status
+Sphinx,,,
+,Which one of the following is false for Sphinx,single,
+,,,Sphinx uses docstrings to automatically generate a code document.
+,,,It doesn’t allow to change the default template for HTMLs.
+,,,You can assign a working directory by changing source/conf.py.
+,,,You can use reStructuredText (rst) to create a document for Sphinx.
+Unit Test,,,
+,Which one of the following is the good practice for writing a pytest?,single,
+,,,Use a short names for testing functions.
+,,,You can always assume that other developers passed all the unit tests before pushing the code to the main branch.
+,,,You can use assert statement for pytest.
+,,,A testing unit should focus on the full functionalities only.
+Crontab,,,
+,What is the command for running app.py every Sunday midnight?,single,
+,,,0 0 * * 0 python app.py
+,,,* * * * 0 python app.py
+,,,0 * * * 0 python app.py
+,,,0 0 * * 0 app.py
+Docker,,,
+,Which one of the following is false for Doker?,single,
+,,,"Bundles OS file system, application software and all the requirement in an image format."
+,,,Delivers the exact same artifact to all systems/environments.
+,,,Docker Images are read-only.
+,,,Docker containers are read-only.
+,Which command is for setting a base image?,single,
+,,,COPY
+,,,FROM
+,,,VOLUME
+,,,ENV
+,"In order to connect two containers to talk to each other, which step is required? ",single,
+,,,Define “networks” in docker-compose.yml
+,,,Define “networks” in Dockerfile
+,,,Define “services” in Dockerfile
+,,,Define “volumes” in docker-compose.yml
+Elastic Beanstalk,,,
+,Which one of the following is true for Elastic Beanstalk?,multiple,
+,,,You can create a multiple “applications” under an “environment”.
+,,,“eb init” is for creating a new application.
+,,,You can deploy a docker container using elastic beanstalk.
+,,,You have to upload all the files in your working directory using “eb create”.
+Backend and Frontend,,,
+,Which one of the following statements is about backend?,single,
+,,,A web browser translate the code and display it.
+,,,"Responsible business logic, data acquisition, database interaction, data processing, etc."
+,,,"Using HTML, CSS and JavaScript for users to see and interact with information."
+,,,Booststrap is for backend.
+Data Acquisition,,,
+,Which one of the following packages is for creating a web form?,Single,
+,,,flask-wtf
+,,,Jinja 2
+,,,flask-login
+,,,Flask-SQLAlchemy
+,Which one of the following is for creating a required email entry field?,single,
+,,,"StringField('email', validators=[Email(), DataRequired()])
+"
+,,,"StringField('email', validators=[Email()])"
+,,,"PasswordField('email', validators=[Email(), DataRequired()])"
+,,,"SubmitField('email', validators=[Email(), DataRequired()])"

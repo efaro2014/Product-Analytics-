@@ -1,0 +1,35 @@
+Title,Questions Name,Questions Type,Answers
+Password Hash,,,
+,What is the format of werkzeug.security.generate_password_hash(“pwd’)?,Single,
+,,,hash
+,,,method$salt$hash
+,,,Original password
+,,,original_password$salt
+,"If you know the password hash, you can easily convert it to the original password.",single,
+,,,TRUE
+,,,FALSE
+SQLAlchemy,,,
+,Which one is false for SQLAlchemy?,single,
+,,,It is a database abstraction layer.
+,,,"With SQLAlchemy,  you can work at a higher level with regular Python objects instead of database entities."
+,,,It is as fast as querying the database directly using SQL.
+,,,"With the same code, you can change your database types using different syntax."
+,"If you want to create a “user” table corresponding to a “user” class, the class need to inherit  from db.Model, where db = SQLAlchemy(application)",single,
+,,,TRUE
+,,,FALSE
+User Registration,,,
+,"In order to save a user object to the db (db = SQLAlchemy(application)), you can simply add one line of db.session.add(user).",single,
+,,,TRUE
+,,,FALSE
+,,,
+User Login/Logout,,,
+,"In order to use login_user() from flask-login, you need to have is_authenticated().",single,
+,,,TRUE
+,,,FALSE
+,Which decorator doesn’t allow users to access the route without authentication?,single,
+,,,@login_required
+,,,@is_authenticated
+,,,@application.route(“/”)
+,"After logout_user(), the user associated with the session becomes un-authenticated.",single,
+,,,TRUE
+,,,FALSE
