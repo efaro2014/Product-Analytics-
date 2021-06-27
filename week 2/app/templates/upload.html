@@ -1,0 +1,14 @@
+<div class="container">
+	<form method="POST" enctype="multipart/form-data">
+		{{ form.csrf_token }}
+		{{ form.file_selector}}
+		{{ form.submit }}
+	</form>
+
+
+	<form method="POST" action="/">
+	    {{ form.csrf_token }}
+	    {{ form.name.label }} {{ form.name(size=20) }}
+    	<input type="submit" value="Go">
+	</form>
+
